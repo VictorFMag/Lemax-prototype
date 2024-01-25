@@ -78,3 +78,7 @@ const observer4 = new IntersectionObserver(function (entries, observer4) {
   });
 }, options);
 observer4.observe(heroID);
+
+function mudaPagina(url) {
+  window.location.href = url;
+}
