@@ -187,6 +187,11 @@ body {
 	text-decoration: underline;
 }
 
+#maps_iframe {
+	width: clamp(300px, 600px, 600px);
+	height: 450px;
+}
+
 /*Footer*/
 .footer-content {
 	width: 100%;
