@@ -83,21 +83,14 @@ body {
 .hero_vantagens {
     height: 100vh;
 
-    position: relative;
-    overflow: hidden;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.hero_vantagens::before {
     background-image: url("https://img.freepik.com/vetores-gratis/agricultura-inteligente-de-fundo-de-vetor-agricultura-iot_53876-112081.jpg?w=1380&t=st=1706808448~exp=1706809048~hmac=d1671742aba23922ee7fed63f691d0441e22f2f9f5b60400abace82e64eb776e");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: scaleX(-1);
 
-    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .vantagens-content {
