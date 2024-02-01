@@ -87,6 +87,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transform: scaleX(-1);
 
     display: flex;
     align-items: center;
